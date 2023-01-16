@@ -13,3 +13,7 @@
 # 좋은 해시 => 
 # (1) = less collision
 # (2) = fast cornpution
+
+#Colision resolution method:
+    #Open addressing
+    #chaining
