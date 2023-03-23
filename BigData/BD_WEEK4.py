@@ -29,3 +29,6 @@ def avg_nums(*args): #가변인자 연습
     return result / len(args)
 
 print(avg_nums(1,2,3,4,5,6,50))
+
+# 모듈 = 함수 변수 클래스를 모아 놓은 파일
+# from 파일이름 import 함수이름 ==> 함수 이름으로 바로 가져다가 사용 가능
