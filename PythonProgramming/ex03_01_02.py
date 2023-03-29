@@ -4,11 +4,11 @@ a = 19
 b = 4 
 print("a//b의 결과값", a//b)
 print("a%b의 결과값", a%b)
-a += 8
-print("a += 8 의 결과값 :", a)
-a += 8
-print("a += 8 의 결과값 :", a)
-a //= 8
+a += 4
+print("a += 4 의 결과값 :", a)
+a += 4
+print("a += 4 의 결과값 :", a)
+a //= 4
 print("a //= 8 의 결과값 :", a)
 a = 19
 b = 4
