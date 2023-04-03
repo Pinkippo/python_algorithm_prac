@@ -49,10 +49,3 @@ print('a = "One Two Three" 일때 공백을 기준으로 문자열 나눈 결과
 a = "spring:summer:fall:winter"
 print('a = "spring:summer:fall:winter"일때 " : " 기준 문자열 나눈 결과 : ', 
 a.split(':'))
-a = (100 < 100)
-print("a = (100 < 100) 일때 100이 100보다 크다의 결과 : ", a)
-b = (300 == 300)
-print("b = (300 == 300) 일때 300은 300과 같다의 결과 : ", b)
-c = True
-print("c = True 일때 True의 자료형은 : ", type(c))
-
