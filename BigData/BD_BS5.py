@@ -13,6 +13,7 @@ while True:
         break
     else:
         for line in soup.find_all(class_="noline center_t"):
+            # if(len(tags[0].find_all('td)) TD로 찾기
             print("지역 : " , line.string)
             print("매장 : ", line.next_sibling.next_sibling.string)
             print("현황 : ", line.next_sibling.next_sibling.next_sibling.next_sibling.string)
