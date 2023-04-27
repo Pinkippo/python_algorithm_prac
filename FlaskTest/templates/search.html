@@ -7,6 +7,9 @@
     <title>Search!</title>
 </head>
 <body>
-<h1>Search for {{kw}}</h1>
+<h1>Search for {{keyword}}</h1>
+{% for job in jobs %}
+<div>{{job.link}}</div>
+{% endfor %}
 </body>
 </html>
